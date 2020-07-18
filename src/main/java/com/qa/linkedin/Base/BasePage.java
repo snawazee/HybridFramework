@@ -83,7 +83,7 @@ public class BasePage {
 		try {
 			env = System.getProperty("env");
 			if (env == null) {
-				path = "./src/main/java/com/qa/linkedin/config/Config.properties";
+				path = "./src/main/java/com/qa/linkedin/Config/config.properties";
 			} else {
 				switch (env) {
 				case "qa":

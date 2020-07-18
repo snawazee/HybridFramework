@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="linkedin App Regression Test Suite" duration-ms="18024" started-at="2020-07-18T12:13:57 IST" finished-at="2020-07-18T12:14:15 IST">
+    <groups>
+    </groups>
+    <test name="Hub Spot Functional Regression Test - chrome" duration-ms="18024" started-at="2020-07-18T12:13:57 IST" finished-at="2020-07-18T12:14:15 IST">
+      <class name="com.qa.linkedin.Tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.linkedin.Tests.LoginPageTest@4fe01803]" name="setUp" is-config="true" duration-ms="15429" started-at="2020-07-18T12:13:58 IST" finished-at="2020-07-18T12:14:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linkedin.Tests.LoginPageTest@4fe01803]" name="tearDown" is-config="true" duration-ms="1172" started-at="2020-07-18T12:14:14 IST" finished-at="2020-07-18T12:14:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.linkedin.Tests.LoginPageTest -->
+    </test> <!-- Hub Spot Functional Regression Test - chrome -->
+  </suite> <!-- linkedin App Regression Test Suite -->
+</testng-results>
