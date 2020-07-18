@@ -36,7 +36,7 @@ public class LandingPage extends BasePage {
 
 	@Step("check sign up link on login page...")
 	public boolean checkLogo() {
-		return elementUtil.doIsDisplayed(signUpLink);
+		return elementUtil.doIsDisplayed(logo);
 	}
 
 }
