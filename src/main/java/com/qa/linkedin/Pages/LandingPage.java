@@ -18,7 +18,7 @@ public class LandingPage extends BasePage {
 	By username = By.id("username");
 	By password = By.id("password");
 	By loginButton = By.id("loginBtn");
-	By signUpLink = By.linkText("Sign up");
+	By logo = By.linkText("Sign up");
 	
 
 	// 2. constructor of the page class:
