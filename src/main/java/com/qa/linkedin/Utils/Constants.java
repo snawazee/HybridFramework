@@ -3,7 +3,7 @@ package com.qa.linkedin.Utils;
 public class Constants {
 	
 	
-	public static final String LOGIN_PAGE_TITLE = "HubSpot Login";
+	public static final String LANDING_PAGE_TITLE = "LinkedIn: Log In or Sign Up";
 	public static final String HOME_PAGE_TITLE = "Reports dashboard";
 	public static final String CONTACTS_PAGE_TITLE = "Contacts";
 
@@ -12,6 +12,7 @@ public class Constants {
 
 	
 	public static final String CONTACTS_SHEET_NAME = "contacts";
+	public static String LOGIN_PAGE_TITLE;
 
 	
 	

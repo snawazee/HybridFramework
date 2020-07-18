@@ -83,17 +83,17 @@ public class BasePage {
 		try {
 			env = System.getProperty("env");
 			if (env == null) {
-				path = "./src/main/java/com/qa/hubspot/config/config.properties";
+				path = "./src/main/java/com/qa/linkedin/config/Config.properties";
 			} else {
 				switch (env) {
 				case "qa":
-					path = "./src/main/java/com/qa/hubspot/config/qa.config.properties";
+					path = "./src/main/java/com/qa/linkedin/Config/qa.config.properties";
 					break;
 				case "dev":
-					path = "./src/main/java/com/qa/hubspot/config/dev.config.properties";
+					path = "./src/main/java/com/qa/linkedin/Config/dev.config.properties";
 					break;
 				case "stage":
-					path = "./src/main/java/com/qa/hubspot/config/stage.config.properties";
+					path = "./src/main/java/com/qa/linkedin/Config/stage.config.properties";
 					break;
 				default:
 					System.out.println("Please pass the correct env value...");
